@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>PostgreSQL</ShortName>
+	<LongName>PostgreSQL site search</LongName>
+	<Description>Search PostgrelSQL site</Description>
+	<Tags>postgresql database</Tags>
+	<Image height="16" width="16" type="image/png">data:image/png;base64,%ICON%</Image>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Url type="text/html" method="get" template="https://www.postgresql.org/search/?q={searchTerms}"/>
+	<Query role="example" searchTerms="window functions"/>
+	<Language>en-us</Language>
+</OpenSearchDescription>
